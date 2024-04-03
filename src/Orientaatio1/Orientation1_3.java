@@ -1,14 +1,11 @@
 package Orientaatio1;
 
-import java.util.LinkedList;
-import java.util.Scanner;
-
-public class Orientation1_4 {
+public class Orientation1_3 {
     private int id;
     private long startTime;
     private long endTime;
 
-    public Orientation1_4(int id, long startTime, long endTime) {
+    public Orientation1_3(int id, long startTime, long endTime) {
         this.id = id;
         this.startTime = startTime;
         this.endTime = endTime;
@@ -42,8 +39,8 @@ public class Orientation1_4 {
     }
 
     public static void main(String[] args) {
-        Orientation1_4 customer1 = new Orientation1_4(1, System.currentTimeMillis(), System.currentTimeMillis());
-        Orientation1_4 customer2 = new Orientation1_4(2, System.currentTimeMillis(), System.currentTimeMillis());
+        Orientation1_3 customer1 = new Orientation1_3(1, System.currentTimeMillis(), System.currentTimeMillis());
+        Orientation1_3 customer2 = new Orientation1_3(2, System.currentTimeMillis(), System.currentTimeMillis());
 
         System.out.println("Customer: " + customer1.getId());
         customer1.setStartTime(System.currentTimeMillis());
